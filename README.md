@@ -1,5 +1,5 @@
 ### **проверка AppVeyor**
-[![Build status](https://ci.appveyor.com/api/projects/status/9idvwog737095tet?svg=true)](https://ci.appveyor.com/project/SlavaFors/ahj-homeworks-testing)
+[![Build status](https://ci.appveyor.com/api/projects/status/0tu31a4l1vj2ykjl?svg=true)](https://ci.appveyor.com/project/Sinsl/test-ahj-slv)
 
 ### **Ссылка на страницу**
-https://slavafors.github.io/ahj-homeworks-testing/
+
