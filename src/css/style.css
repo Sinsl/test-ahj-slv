@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    width: 100%;
+    padding-top: 50px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.validator {
+  width: 550px;
+  margin: 30px auto;
+}
+
+.cards {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  list-style-type: none;
+  width: 70px;
+  height: 46px;
+  margin-right: 5px;
+  background-position-x: 0;
+  background-position-y: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-visa {
+  background-image: url(../img/visa.png);
+}
+.card-mastercard {
+  background-image: url(../img/mastercard.png);
+}
+.card-mir {
+  background-image: url(../img/mir.png);
+}
+.card-amex {
+  background-image: url(../img/amex.png);
+}
+.card-jcb {
+  background-image: url(../img/jcb.png);
+}
+.card-diners {
+  background-image: url(../img/diners.png);
+}
+.card-discover {
+  background-image: url(../img/discover.png);
+}
+
+.inactive {
+  background-position-y: -46px;
+  opacity: 0.2;
+}
+
+.valid-form {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.valid-form input {
+  width: 100%;
+  height: 40px;
+}
+.valid-form button {
+  width: 200px;
+  padding: 5px;
+  background-color: #4cae4c;
+  color: #fff;
+}
+.valid-form button:hover {
+  background-color: #aaa;
+  color: #000;
+}
+.message {
+  margin-top: 10px;
+  color: brown;
+  font-size: 18px;
+}
